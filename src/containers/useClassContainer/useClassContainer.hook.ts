@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect, useState } from "react";
 import { Class } from "@/lib/Class";
 
@@ -7,6 +8,8 @@ export function useClassContainer(schoolId: number) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    if (!schoolId) return;
+
     const fetchClasses = async () => {
       try {
         const response = await fetch("/mock/db.json");
