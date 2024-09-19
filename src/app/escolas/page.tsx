@@ -1,9 +1,9 @@
-import SchoolList from "@/components/Schools/Schools";
+import SchoolListContainer from "@/containers/useSchoolContainer/SchoolListContainer";
 
-export default function Escolas() {
+export default function SchoolsPage() {
   return (
-    <div>
-      <SchoolList />
-    </div>
+    <>
+      <SchoolListContainer />
+    </>
   );
 }
