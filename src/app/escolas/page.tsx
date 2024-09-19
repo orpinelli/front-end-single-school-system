@@ -1,5 +1,9 @@
-import Image from "next/image";
+import SchoolList from "@/components/Schools/Schools";
 
 export default function Escolas() {
-  return <div>Aqui sao as escolas</div>;
+  return (
+    <div>
+      <SchoolList />
+    </div>
+  );
 }
