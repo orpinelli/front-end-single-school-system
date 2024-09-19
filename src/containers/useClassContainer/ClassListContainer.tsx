@@ -1,5 +1,5 @@
 "use client";
-import { useClassContainer } from "./useClassContainer.hook";
+import { useClassContainer } from "./ClassContainer.hook";
 import ClassList from "@/components/ClassList/ClassList";
 
 interface ClassListContainerProps {
@@ -9,7 +9,7 @@ interface ClassListContainerProps {
 export default function ClassListContainer({
   schoolId,
 }: ClassListContainerProps) {
-  const { classes, error } = useClassContainer(schoolId); // Passa o schoolId para o hook
+  const { classes, error } = useClassContainer(schoolId);
 
   if (error) {
     return <div>{error}</div>;

@@ -118,6 +118,132 @@
           ]
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "Escola Municipal São José",
+      "address": "Rua da Harmonia, 999, Bairro Feliz",
+      "classes": [
+        {
+          "id": 10,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 22, "name": "Pedro Costa", "registration": "2023022" },
+            { "id": 23, "name": "Laura Oliveira", "registration": "2023023" },
+            { "id": 24, "name": "Marcos Almeida", "registration": "2023024" }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 25, "name": "Paulo Sousa", "registration": "2023025" },
+            { "id": 26, "name": "Julia Santos", "registration": "2023026" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Escola Municipal Flor do Campo",
+      "address": "Avenida das Palmeiras, 123, Zona Norte",
+      "classes": [
+        {
+          "id": 12,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 27, "name": "Fernanda Martins", "registration": "2023027" },
+            { "id": 28, "name": "Roberto Silva", "registration": "2023028" }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 29, "name": "Camila Pereira", "registration": "2023029" },
+            { "id": 30, "name": "Gustavo Almeida", "registration": "2023030" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Escola Municipal Primavera",
+      "address": "Rua Primavera, 234, Centro",
+      "classes": [
+        {
+          "id": 14,
+          "name": "Turma 1B",
+          "series": "1º Ano",
+          "students": [
+            { "id": 31, "name": "Rafael Mendes", "registration": "2023031" },
+            { "id": 32, "name": "Bruna Carvalho", "registration": "2023032" }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Turma 2B",
+          "series": "2º Ano",
+          "students": [
+            { "id": 33, "name": "Diego Ribeiro", "registration": "2023033" },
+            { "id": 34, "name": "Patrícia Oliveira", "registration": "2023034" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Escola Municipal Horizonte",
+      "address": "Avenida Horizonte, 567, Bairro Vista Alegre",
+      "classes": [
+        {
+          "id": 16,
+          "name": "Turma 1C",
+          "series": "1º Ano",
+          "students": [
+            { "id": 35, "name": "Adriana Gomes", "registration": "2023035" },
+            { "id": 36, "name": "Mateus Pereira", "registration": "2023036" }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Turma 2C",
+          "series": "2º Ano",
+          "students": [
+            { "id": 37, "name": "Fábio Alves", "registration": "2023037" },
+            { "id": 38, "name": "Renata Souza", "registration": "2023038" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Escola Municipal Monte Alegre",
+      "address": "Rua do Sol, 789, Bairro Montanha",
+      "classes": [
+        {
+          "id": 18,
+          "name": "Turma 1D",
+          "series": "1º Ano",
+          "students": [
+            { "id": 39, "name": "Eduardo Silva", "registration": "2023039" },
+            { "id": 40, "name": "Sandra Costa", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Turma 2D",
+          "series": "2º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Oliveira", "registration": "2023041" },
+            { "id": 42, "name": "Carla Mendes", "registration": "2023042" }
+          ]
+        }
+      ]
     }
   ]
 }
