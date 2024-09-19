@@ -1,0 +1,123 @@
+{
+  "schools": [
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Escola Estadual Maria da Penha",
+      "address": "Av. Principal, 456, Bairro Novo",
+      "classes": [
+        {
+          "id": 3,
+          "name": "Turma 3B",
+          "series": "3º Ano",
+          "students": [
+            { "id": 6, "name": "João Oliveira", "registration": "2023006" },
+            { "id": 7, "name": "Paulo Gonçalves", "registration": "2023007" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4B",
+          "series": "4º Ano",
+          "students": [
+            { "id": 8, "name": "Gabriel Almeida", "registration": "2023008" },
+            { "id": 9, "name": "Bruna Rocha", "registration": "2023009" },
+            { "id": 10, "name": "Juliana Ribeiro", "registration": "2023010" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Colégio Estadual Augusto Cury",
+      "address": "Rua da Paz, 789, Jardim das Palmeiras",
+      "classes": [
+        {
+          "id": 5,
+          "name": "Turma 5C",
+          "series": "5º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6C",
+          "series": "6º Ano",
+          "students": [
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Escola Municipal Raízes do Saber",
+      "address": "Estrada Velha, 654, Zona Rural",
+      "classes": [
+        {
+          "id": 7,
+          "name": "Turma 7D",
+          "series": "7º Ano",
+          "students": [
+            { "id": 15, "name": "Ricardo Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Larissa Brito", "registration": "2023016" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Turma 8D",
+          "series": "8º Ano",
+          "students": [
+            { "id": 17, "name": "André Carvalho", "registration": "2023017" },
+            { "id": 18, "name": "Renata Fonseca", "registration": "2023018" },
+            { "id": 19, "name": "Beatriz Oliveira", "registration": "2023019" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Escola Estadual Nova Esperança",
+      "address": "Rua Horizonte, 321, Bairro Esperança",
+      "classes": [
+        {
+          "id": 9,
+          "name": "Turma 9E",
+          "series": "9º Ano",
+          "students": [
+            { "id": 20, "name": "Daniel Almeida", "registration": "2023020" },
+            { "id": 21, "name": "Vanessa Lima", "registration": "2023021" }
+          ]
+        }
+      ]
+    }
+  ]
+}
