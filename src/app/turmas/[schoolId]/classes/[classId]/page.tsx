@@ -7,7 +7,6 @@ interface ClassStudentsPageProps {
 import StudentListContainer from "@/containers/useStudentListContainer/StudentListContainer";
 
 export default function ClassStudentsPage({ params }: ClassStudentsPageProps) {
-  const classId = Number(params.classId); // Extrai o classId dos parâmetros da URL
-
+  const classId = Number(params.classId);
   return <StudentListContainer classId={classId} />;
 }

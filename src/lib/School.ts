@@ -1,22 +1,24 @@
-import { Class } from "./Class";
+import { Entity } from "./IEntity";
 
-export class School {
-  public classes: Class[] = [];
-
+export class School extends Entity {
   constructor(
-    public id: number,
-    public name: string,
+    id: number,
+    name: string,
     public address: string,
-    classes: Class[] = []
+    public classes: any[] = []
   ) {
-    this.classes = classes;
+    super(id, name);
   }
 
-  addClass(classItem: Class) {
+  getDescription(): string {
+    return `Escola ${this.name} localizada em ${this.address}`;
+  }
+
+  addClass(classItem: any) {
     this.classes.push(classItem);
   }
 
-  getClasses(): Class[] {
+  getClasses(): any[] {
     return this.classes;
   }
 }
