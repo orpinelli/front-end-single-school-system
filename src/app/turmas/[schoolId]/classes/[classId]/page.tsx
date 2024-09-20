@@ -4,7 +4,7 @@ interface ClassStudentsPageProps {
   };
 }
 
-import StudentListContainer from "@/containers/useStudentListContainer/StudentListContainer";
+import StudentListContainer from "@/containers/StudentListContainer/StudentListContainer";
 
 export default function ClassStudentsPage({ params }: ClassStudentsPageProps) {
   const classId = Number(params.classId);
