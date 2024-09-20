@@ -41,5 +41,16 @@ export function useClassContainer(schoolId: number) {
     fetchClasses();
   }, [schoolId]);
 
-  return { classes, error };
+  const addClass = (newClass: { name: string; series: string }) => {
+    const newClassItem = new Class(
+      classes.length + 1,
+      newClass.name,
+      newClass.series,
+      []
+    );
+
+    setClasses((prevClasses) => [...prevClasses, newClassItem]);
+  };
+
+  return { classes, error, addClass };
 }
