@@ -5,9 +5,6 @@ interface ClassListProps {
 const ClassList: React.FC<ClassListProps> = ({ classes }) => {
   return (
     <div className="max-w-3xl mx-auto mt-10 p-6 bg-white rounded-3xl shadow-lg">
-      <h1 className="text-4xl font-semibold text-gray-900 mb-8 text-center">
-        Turmas
-      </h1>
       <ul className="space-y-4">
         {classes.map((classItem) => (
           <li

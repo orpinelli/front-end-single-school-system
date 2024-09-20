@@ -20,11 +20,11 @@ const SchoolList: React.FC<SchoolListProps> = ({ schools, onEditSchool }) => {
               <Card className="h-full">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                   <div className="flex justify-between w-full items-center">
-                    <span className="text-ellipsis whitespace-nowrap overflow-hidden block w-full text-black">
+                    <span className="text-ellipsis  overflow-hidden block w-full text-black">
                       {school.name}
                     </span>
                     <FaEdit
-                      className="text-gray-600 cursor-pointer"
+                      className="text-gray-600 cursor-pointer ml-2"
                       onClick={(e) => {
                         e.preventDefault();
                         onEditSchool(school.id);
