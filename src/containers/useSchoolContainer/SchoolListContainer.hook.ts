@@ -5,9 +5,15 @@ import { School } from "@/lib/School";
 import { SchoolWithCounts, ISchool } from "@/interfaces/ISchool";
 import { Class } from "@/lib/Class";
 
+const removeAccents = (str: string) => {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+};
+
 export function useSchoolContainer() {
   const [schools, setSchools] = useState<SchoolWithCounts[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [selectedSchoolId, setSelectedSchoolId] = useState<number | null>(null);
 
   useEffect(() => {
     const fetchSchools = async () => {
@@ -91,7 +97,29 @@ export function useSchoolContainer() {
     });
 
     setSchools(updatedSchools);
+    setSelectedSchoolId(null);
   };
 
-  return { schools, error, addSchool, editSchool };
+  const handleEditSchool = (id: number) => {
+    setSelectedSchoolId(id);
+  };
+
+  const filteredSchools = searchTerm
+    ? schools.filter((school) =>
+        removeAccents(school.name.toLowerCase()).includes(
+          removeAccents(searchTerm.toLowerCase())
+        )
+      )
+    : schools;
+
+  return {
+    schools: filteredSchools,
+    error,
+    addSchool,
+    editSchool,
+    handleEditSchool,
+    setSearchTerm,
+    selectedSchoolId,
+    setSelectedSchoolId,
+  };
 }
