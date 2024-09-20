@@ -1,4 +1,3 @@
-import { School } from "@/lib/School";
 import { IEntity } from "./Entity";
 import { IClass } from "./IClass";
 

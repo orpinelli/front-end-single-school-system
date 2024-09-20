@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { IClass } from "@/interfaces/IClass";
 import { Class } from "@/lib/Class";
 
 export function useClassContainer(schoolId: number) {
@@ -20,9 +21,10 @@ export function useClassContainer(schoolId: number) {
         const schoolData = data.schools.find(
           (school: { id: number }) => school.id === schoolId
         );
+
         if (schoolData) {
-          const loadedClasses = schoolData.classes.map(
-            (classData: any) =>
+          const loadedClasses: Class[] = schoolData.classes.map(
+            (classData: IClass) =>
               new Class(
                 classData.id,
                 classData.name,

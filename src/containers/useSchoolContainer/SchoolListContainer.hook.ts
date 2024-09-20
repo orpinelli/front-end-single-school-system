@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { School } from "@/lib/School";
-import { SchoolWithCounts } from "@/interfaces/ISchool";
-import { IClass } from "@/interfaces/IClass";
+import { SchoolWithCounts, ISchool } from "@/interfaces/ISchool";
+import { Class } from "@/lib/Class";
 
 export function useSchoolContainer() {
   const [schools, setSchools] = useState<SchoolWithCounts[]>([]);
@@ -16,21 +16,21 @@ export function useSchoolContainer() {
         if (!response.ok) {
           throw new Error("Erro ao carregar escolas");
         }
-        const data = await response.json();
+        const data: { schools: ISchool[] } = await response.json();
 
-        const loadedSchools = data.schools.map((schoolData: any) => {
+        const loadedSchools = data.schools.map((schoolData) => {
           const school = new School(
             schoolData.id,
             schoolData.name,
             schoolData.address,
             schoolData.classes.map(
-              (classData: any) =>
-                ({
-                  id: classData.id,
-                  name: classData.name,
-                  series: classData.series,
-                  students: classData.students,
-                } as IClass)
+              (classData) =>
+                new Class(
+                  classData.id,
+                  classData.name,
+                  classData.series,
+                  classData.students
+                )
             )
           );
 
@@ -53,12 +53,8 @@ export function useSchoolContainer() {
   }, []);
 
   const addSchool = (newSchool: { name: string; address: string }) => {
-    const school = new School(
-      schools.length + 1,
-      newSchool.name,
-      newSchool.address,
-      []
-    );
+    const nextId = schools.length ? schools[schools.length - 1].id + 1 : 1;
+    const school = new School(nextId, newSchool.name, newSchool.address, []);
 
     const newSchoolWithCounts: SchoolWithCounts = {
       ...school,

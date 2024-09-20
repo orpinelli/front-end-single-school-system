@@ -1,34 +1,23 @@
-import { Entity } from "./IEntity";
+import { IStudent } from "@/interfaces/IStudent";
 
-interface Student {
-  id: number;
-  name: string;
-  registration: string;
-}
-
-export class Class extends Entity {
-  public students: Student[];
-
+export class Class {
   constructor(
-    id: number,
-    name: string,
+    public id: number,
+    public name: string,
     public series: string,
-    students: Student[] = []
-  ) {
-    super(id, name);
-    this.students = students;
-  }
+    public students: IStudent[] = []
+  ) {}
 
-  addStudent(student: Student) {
-    this.students.push(student);
-  }
-
-  getStudents(): Student[] {
+  getStudents(): IStudent[] {
     return this.students;
   }
 
   getDescription(): string {
-    return `Turma ${this.name} da série ${this.series}`;
+    return `${this.name} - ${this.series}`;
+  }
+
+  addStudent(student: IStudent): void {
+    this.students.push(student);
   }
 
   getNumberOfStudents(): number {

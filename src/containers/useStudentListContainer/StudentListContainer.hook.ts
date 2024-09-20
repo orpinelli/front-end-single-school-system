@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { Student } from "@/lib/Student";
+import { ISchool } from "@/interfaces/ISchool";
+import { IClass } from "@/interfaces/IClass";
 
 export function useStudentContainer(classId: number) {
   const [students, setStudents] = useState<Student[]>([]);
@@ -16,14 +18,16 @@ export function useStudentContainer(classId: number) {
         if (!response.ok) {
           throw new Error("Erro ao carregar alunos");
         }
-        const data = await response.json();
-        const classData = data.schools
-          .flatMap((school: any) => school.classes)
-          .find((classItem: any) => classItem.id === classId);
+
+        const data: { schools: ISchool[] } = await response.json();
+
+        const classData: IClass | undefined = data.schools
+          .flatMap((school) => school.classes)
+          .find((classItem) => classItem.id === classId);
 
         if (classData) {
           const loadedStudents = classData.students.map(
-            (studentData: any) =>
+            (studentData) =>
               new Student(
                 studentData.id,
                 studentData.name,

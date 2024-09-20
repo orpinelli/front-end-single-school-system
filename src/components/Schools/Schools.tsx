@@ -14,7 +14,7 @@ const SchoolList: React.FC<SchoolListProps> = ({ schools, onEditSchool }) => {
         {schools.map((school, index) => (
           <li
             key={`${school.id}-${index}`}
-            className="bg-white p-4 rounded-lg flex flex-col justify-between relative"
+            className="bg-white p-4 rounded-lg flex flex-col justify-between relative  hover:bg-gray-300 transition duration-300"
           >
             <a href={`/turmas/${school.id}`}>
               <Card className="h-full">
