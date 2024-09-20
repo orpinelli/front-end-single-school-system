@@ -1,4 +1,4 @@
-import SchoolListContainer from "@/containers/useSchoolContainer/SchoolListContainer";
+import SchoolListContainer from "@/containers/SchoolContainer/SchoolListContainer";
 
 export default function SchoolsPage() {
   return (
