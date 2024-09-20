@@ -8,7 +8,7 @@ export interface ISchool extends IEntity {
   addClass(classItem: IClass): void;
 }
 
-export interface SchoolWithCounts extends School {
+export interface SchoolWithCounts extends ISchool {
   numberOfClasses: number;
   numberOfStudents: number;
 }

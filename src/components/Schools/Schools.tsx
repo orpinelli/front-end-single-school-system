@@ -8,8 +8,7 @@ interface SchoolListProps {
 const SchoolList: React.FC<SchoolListProps> = ({ schools }) => {
   return (
     <div className="shadow-md rounded-lg p-6 max-w-6xl mx-auto mt-8">
-      <h1 className="text-3xl font-bold mb-6 text-white">Escolas</h1>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {schools.map((school) => (
           <li
             key={school.id}

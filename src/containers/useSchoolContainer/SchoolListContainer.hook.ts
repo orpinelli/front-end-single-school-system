@@ -2,12 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { School } from "@/lib/School";
-import { Class } from "@/lib/Class";
-
-interface SchoolWithCounts extends School {
-  numberOfClasses: number;
-  numberOfStudents: number;
-}
+import { SchoolWithCounts } from "@/interfaces/ISchool";
+import { IClass } from "@/interfaces/IClass";
 
 export function useSchoolContainer() {
   const [schools, setSchools] = useState<SchoolWithCounts[]>([]);
@@ -16,11 +12,12 @@ export function useSchoolContainer() {
   useEffect(() => {
     const fetchSchools = async () => {
       try {
-        const response = await fetch("mock/db.json");
+        const response = await fetch("/mock/db.json");
         if (!response.ok) {
           throw new Error("Erro ao carregar escolas");
         }
         const data = await response.json();
+
         const loadedSchools = data.schools.map((schoolData: any) => {
           const school = new School(
             schoolData.id,
@@ -28,12 +25,12 @@ export function useSchoolContainer() {
             schoolData.address,
             schoolData.classes.map(
               (classData: any) =>
-                new Class(
-                  classData.id,
-                  classData.name,
-                  classData.series,
-                  classData.students
-                )
+                ({
+                  id: classData.id,
+                  name: classData.name,
+                  series: classData.series,
+                  students: classData.students,
+                } as IClass)
             )
           );
 
@@ -54,5 +51,25 @@ export function useSchoolContainer() {
     fetchSchools();
   }, []);
 
-  return { schools, error };
+  const addSchool = (newSchool: { name: string; address: string }) => {
+    const school = new School(
+      schools.length + 1,
+      newSchool.name,
+      newSchool.address,
+      []
+    );
+
+    const newSchoolWithCounts: SchoolWithCounts = {
+      ...school,
+      numberOfClasses: 0,
+      numberOfStudents: 0,
+      addClass: function (classItem: IClass): void {
+        throw new Error("Function not implemented.");
+      },
+    };
+
+    setSchools([...schools, newSchoolWithCounts]);
+  };
+
+  return { schools, error, addSchool };
 }

@@ -1,36 +1,30 @@
+import { ISchool } from "@/interfaces/ISchool";
+import { IClass } from "@/interfaces/IClass";
 import { Entity } from "./IEntity";
-interface Student {
-  id: number;
-  name: string;
-  registration: string;
-}
 
-interface Class {
-  id: number;
-  name: string;
-  series: string;
-  students: Student[];
-}
+export class School extends Entity implements ISchool {
+  getDescription(): string {
+    throw new Error("Method not implemented.");
+  }
+  address: string;
+  classes: IClass[] = [];
 
-export class School extends Entity {
   constructor(
     id: number,
     name: string,
-    public address: string,
-    public classes: Class[] = []
+    address: string,
+    classes: IClass[] = []
   ) {
     super(id, name);
+    this.address = address;
+    this.classes = classes;
   }
 
-  getDescription(): string {
-    return `Escola ${this.name} localizada em ${this.address}`;
-  }
-
-  addClass(classItem: Class) {
+  addClass(classItem: IClass): void {
     this.classes.push(classItem);
   }
 
-  getClasses(): Class[] {
+  getClasses(): IClass[] {
     return this.classes;
   }
 
@@ -39,8 +33,9 @@ export class School extends Entity {
   }
 
   getNumberOfStudents(): number {
-    return this.classes.reduce((total, classItem) => {
-      return total + classItem.students.length;
-    }, 0);
+    return this.classes.reduce(
+      (total, classItem) => total + classItem.students.length,
+      0
+    );
   }
 }
