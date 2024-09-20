@@ -12,7 +12,14 @@
           "students": [
             { "id": 1, "name": "Ana Silva", "registration": "2023001" },
             { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
-            { "id": 3, "name": "Mariana Costa", "registration": "2023003" }
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
           ]
         },
         {
@@ -20,8 +27,84 @@
           "name": "Turma 2A",
           "series": "2º Ano",
           "students": [
-            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
-            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" }
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
           ]
         }
       ]
@@ -32,215 +115,1250 @@
       "address": "Av. Principal, 456, Bairro Novo",
       "classes": [
         {
-          "id": 3,
-          "name": "Turma 3B",
-          "series": "3º Ano",
-          "students": [
-            { "id": 6, "name": "João Oliveira", "registration": "2023006" },
-            { "id": 7, "name": "Paulo Gonçalves", "registration": "2023007" }
-          ]
-        },
-        {
-          "id": 4,
-          "name": "Turma 4B",
-          "series": "4º Ano",
-          "students": [
-            { "id": 8, "name": "Gabriel Almeida", "registration": "2023008" },
-            { "id": 9, "name": "Bruna Rocha", "registration": "2023009" },
-            { "id": 10, "name": "Juliana Ribeiro", "registration": "2023010" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Colégio Estadual Augusto Cury",
-      "address": "Rua da Paz, 789, Jardim das Palmeiras",
-      "classes": [
-        {
-          "id": 5,
-          "name": "Turma 5C",
-          "series": "5º Ano",
-          "students": [
-            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
-            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Turma 6C",
-          "series": "6º Ano",
-          "students": [
-            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
-            { "id": 14, "name": "Luana Faria", "registration": "2023014" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Escola Municipal Raízes do Saber",
-      "address": "Estrada Velha, 654, Zona Rural",
-      "classes": [
-        {
           "id": 7,
-          "name": "Turma 7D",
-          "series": "7º Ano",
+          "name": "Turma 1B",
+          "series": "1º Ano",
           "students": [
-            { "id": 15, "name": "Ricardo Mendes", "registration": "2023015" },
-            { "id": 16, "name": "Larissa Brito", "registration": "2023016" }
+            { "id": 61, "name": "Gabriel Souza", "registration": "2023061" },
+            { "id": 62, "name": "Fernanda Martins", "registration": "2023062" },
+            { "id": 63, "name": "Pedro Lima", "registration": "2023063" },
+            { "id": 64, "name": "Lucas Costa", "registration": "2023064" },
+            { "id": 65, "name": "Paula Nunes", "registration": "2023065" },
+            { "id": 66, "name": "Camila Santos", "registration": "2023066" },
+            { "id": 67, "name": "Rafael Gonçalves", "registration": "2023067" },
+            { "id": 68, "name": "Rodrigo Pereira", "registration": "2023068" },
+            { "id": 69, "name": "Mariana Souza", "registration": "2023069" },
+            { "id": 70, "name": "Ana Silva", "registration": "2023070" }
           ]
         },
         {
           "id": 8,
-          "name": "Turma 8D",
-          "series": "8º Ano",
-          "students": [
-            { "id": 17, "name": "André Carvalho", "registration": "2023017" },
-            { "id": 18, "name": "Renata Fonseca", "registration": "2023018" },
-            { "id": 19, "name": "Beatriz Oliveira", "registration": "2023019" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Escola Estadual Nova Esperança",
-      "address": "Rua Horizonte, 321, Bairro Esperança",
-      "classes": [
-        {
-          "id": 9,
-          "name": "Turma 9E",
-          "series": "9º Ano",
-          "students": [
-            { "id": 20, "name": "Daniel Almeida", "registration": "2023020" },
-            { "id": 21, "name": "Vanessa Lima", "registration": "2023021" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Escola Municipal São José",
-      "address": "Rua da Harmonia, 999, Bairro Feliz",
-      "classes": [
-        {
-          "id": 10,
-          "name": "Turma 1A",
-          "series": "1º Ano",
-          "students": [
-            { "id": 22, "name": "Pedro Costa", "registration": "2023022" },
-            { "id": 23, "name": "Laura Oliveira", "registration": "2023023" },
-            { "id": 24, "name": "Marcos Almeida", "registration": "2023024" }
-          ]
-        },
-        {
-          "id": 11,
-          "name": "Turma 2A",
-          "series": "2º Ano",
-          "students": [
-            { "id": 25, "name": "Paulo Sousa", "registration": "2023025" },
-            { "id": 26, "name": "Julia Santos", "registration": "2023026" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Escola Municipal Flor do Campo",
-      "address": "Avenida das Palmeiras, 123, Zona Norte",
-      "classes": [
-        {
-          "id": 12,
-          "name": "Turma 3A",
-          "series": "3º Ano",
-          "students": [
-            { "id": 27, "name": "Fernanda Martins", "registration": "2023027" },
-            { "id": 28, "name": "Roberto Silva", "registration": "2023028" }
-          ]
-        },
-        {
-          "id": 13,
-          "name": "Turma 4A",
-          "series": "4º Ano",
-          "students": [
-            { "id": 29, "name": "Camila Pereira", "registration": "2023029" },
-            { "id": 30, "name": "Gustavo Almeida", "registration": "2023030" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Escola Municipal Primavera",
-      "address": "Rua Primavera, 234, Centro",
-      "classes": [
-        {
-          "id": 14,
-          "name": "Turma 1B",
-          "series": "1º Ano",
-          "students": [
-            { "id": 31, "name": "Rafael Mendes", "registration": "2023031" },
-            { "id": 32, "name": "Bruna Carvalho", "registration": "2023032" }
-          ]
-        },
-        {
-          "id": 15,
           "name": "Turma 2B",
           "series": "2º Ano",
           "students": [
-            { "id": 33, "name": "Diego Ribeiro", "registration": "2023033" },
-            { "id": 34, "name": "Patrícia Oliveira", "registration": "2023034" }
+            { "id": 71, "name": "Gabriel Santos", "registration": "2023071" },
+            { "id": 72, "name": "Pedro Nunes", "registration": "2023072" },
+            { "id": 73, "name": "Fernanda Lima", "registration": "2023073" },
+            { "id": 74, "name": "Lucas Silva", "registration": "2023074" },
+            { "id": 75, "name": "Paula Souza", "registration": "2023075" },
+            { "id": 76, "name": "Mariana Pereira", "registration": "2023076" },
+            { "id": 77, "name": "Rafael Costa", "registration": "2023077" },
+            { "id": 78, "name": "Ana Nunes", "registration": "2023078" },
+            { "id": 79, "name": "Carlos Ribeiro", "registration": "2023079" },
+            { "id": 80, "name": "Daniel Gonçalves", "registration": "2023080" }
           ]
         }
       ]
     },
     {
-      "id": 9,
-      "name": "Escola Municipal Horizonte",
-      "address": "Avenida Horizonte, 567, Bairro Vista Alegre",
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
       "classes": [
         {
-          "id": 16,
-          "name": "Turma 1C",
+          "id": 1,
+          "name": "Turma 1A",
           "series": "1º Ano",
           "students": [
-            { "id": 35, "name": "Adriana Gomes", "registration": "2023035" },
-            { "id": 36, "name": "Mateus Pereira", "registration": "2023036" }
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
           ]
         },
         {
-          "id": 17,
-          "name": "Turma 2C",
+          "id": 2,
+          "name": "Turma 2A",
           "series": "2º Ano",
           "students": [
-            { "id": 37, "name": "Fábio Alves", "registration": "2023037" },
-            { "id": 38, "name": "Renata Souza", "registration": "2023038" }
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
           ]
         }
       ]
     },
     {
-      "id": 10,
-      "name": "Escola Municipal Monte Alegre",
-      "address": "Rua do Sol, 789, Bairro Montanha",
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
       "classes": [
         {
-          "id": 18,
-          "name": "Turma 1D",
+          "id": 1,
+          "name": "Turma 1A",
           "series": "1º Ano",
           "students": [
-            { "id": 39, "name": "Eduardo Silva", "registration": "2023039" },
-            { "id": 40, "name": "Sandra Costa", "registration": "2023040" }
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
           ]
         },
         {
-          "id": 19,
-          "name": "Turma 2D",
+          "id": 2,
+          "name": "Turma 2A",
           "series": "2º Ano",
           "students": [
-            { "id": 41, "name": "Lucas Oliveira", "registration": "2023041" },
-            { "id": 42, "name": "Carla Mendes", "registration": "2023042" }
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Escola Estadual Maria da Penha",
+      "address": "Av. Principal, 456, Bairro Novo",
+      "classes": [
+        {
+          "id": 7,
+          "name": "Turma 1B",
+          "series": "1º Ano",
+          "students": [
+            { "id": 61, "name": "Gabriel Souza", "registration": "2023061" },
+            { "id": 62, "name": "Fernanda Martins", "registration": "2023062" },
+            { "id": 63, "name": "Pedro Lima", "registration": "2023063" },
+            { "id": 64, "name": "Lucas Costa", "registration": "2023064" },
+            { "id": 65, "name": "Paula Nunes", "registration": "2023065" },
+            { "id": 66, "name": "Camila Santos", "registration": "2023066" },
+            { "id": 67, "name": "Rafael Gonçalves", "registration": "2023067" },
+            { "id": 68, "name": "Rodrigo Pereira", "registration": "2023068" },
+            { "id": 69, "name": "Mariana Souza", "registration": "2023069" },
+            { "id": 70, "name": "Ana Silva", "registration": "2023070" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Turma 2B",
+          "series": "2º Ano",
+          "students": [
+            { "id": 71, "name": "Gabriel Santos", "registration": "2023071" },
+            { "id": 72, "name": "Pedro Nunes", "registration": "2023072" },
+            { "id": 73, "name": "Fernanda Lima", "registration": "2023073" },
+            { "id": 74, "name": "Lucas Silva", "registration": "2023074" },
+            { "id": 75, "name": "Paula Souza", "registration": "2023075" },
+            { "id": 76, "name": "Mariana Pereira", "registration": "2023076" },
+            { "id": 77, "name": "Rafael Costa", "registration": "2023077" },
+            { "id": 78, "name": "Ana Nunes", "registration": "2023078" },
+            { "id": 79, "name": "Carlos Ribeiro", "registration": "2023079" },
+            { "id": 80, "name": "Daniel Gonçalves", "registration": "2023080" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Escola Estadual Maria da Penha",
+      "address": "Av. Principal, 456, Bairro Novo",
+      "classes": [
+        {
+          "id": 7,
+          "name": "Turma 1B",
+          "series": "1º Ano",
+          "students": [
+            { "id": 61, "name": "Gabriel Souza", "registration": "2023061" },
+            { "id": 62, "name": "Fernanda Martins", "registration": "2023062" },
+            { "id": 63, "name": "Pedro Lima", "registration": "2023063" },
+            { "id": 64, "name": "Lucas Costa", "registration": "2023064" },
+            { "id": 65, "name": "Paula Nunes", "registration": "2023065" },
+            { "id": 66, "name": "Camila Santos", "registration": "2023066" },
+            { "id": 67, "name": "Rafael Gonçalves", "registration": "2023067" },
+            { "id": 68, "name": "Rodrigo Pereira", "registration": "2023068" },
+            { "id": 69, "name": "Mariana Souza", "registration": "2023069" },
+            { "id": 70, "name": "Ana Silva", "registration": "2023070" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Turma 2B",
+          "series": "2º Ano",
+          "students": [
+            { "id": 71, "name": "Gabriel Santos", "registration": "2023071" },
+            { "id": 72, "name": "Pedro Nunes", "registration": "2023072" },
+            { "id": 73, "name": "Fernanda Lima", "registration": "2023073" },
+            { "id": 74, "name": "Lucas Silva", "registration": "2023074" },
+            { "id": 75, "name": "Paula Souza", "registration": "2023075" },
+            { "id": 76, "name": "Mariana Pereira", "registration": "2023076" },
+            { "id": 77, "name": "Rafael Costa", "registration": "2023077" },
+            { "id": 78, "name": "Ana Nunes", "registration": "2023078" },
+            { "id": 79, "name": "Carlos Ribeiro", "registration": "2023079" },
+            { "id": 80, "name": "Daniel Gonçalves", "registration": "2023080" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Escola Estadual Maria da Penha",
+      "address": "Av. Principal, 456, Bairro Novo",
+      "classes": [
+        {
+          "id": 7,
+          "name": "Turma 1B",
+          "series": "1º Ano",
+          "students": [
+            { "id": 61, "name": "Gabriel Souza", "registration": "2023061" },
+            { "id": 62, "name": "Fernanda Martins", "registration": "2023062" },
+            { "id": 63, "name": "Pedro Lima", "registration": "2023063" },
+            { "id": 64, "name": "Lucas Costa", "registration": "2023064" },
+            { "id": 65, "name": "Paula Nunes", "registration": "2023065" },
+            { "id": 66, "name": "Camila Santos", "registration": "2023066" },
+            { "id": 67, "name": "Rafael Gonçalves", "registration": "2023067" },
+            { "id": 68, "name": "Rodrigo Pereira", "registration": "2023068" },
+            { "id": 69, "name": "Mariana Souza", "registration": "2023069" },
+            { "id": 70, "name": "Ana Silva", "registration": "2023070" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Turma 2B",
+          "series": "2º Ano",
+          "students": [
+            { "id": 71, "name": "Gabriel Santos", "registration": "2023071" },
+            { "id": 72, "name": "Pedro Nunes", "registration": "2023072" },
+            { "id": 73, "name": "Fernanda Lima", "registration": "2023073" },
+            { "id": 74, "name": "Lucas Silva", "registration": "2023074" },
+            { "id": 75, "name": "Paula Souza", "registration": "2023075" },
+            { "id": 76, "name": "Mariana Pereira", "registration": "2023076" },
+            { "id": 77, "name": "Rafael Costa", "registration": "2023077" },
+            { "id": 78, "name": "Ana Nunes", "registration": "2023078" },
+            { "id": 79, "name": "Carlos Ribeiro", "registration": "2023079" },
+            { "id": 80, "name": "Daniel Gonçalves", "registration": "2023080" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Escola Municipal José de Anchieta",
+      "address": "Rua das Flores, 123, Centro",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Turma 1A",
+          "series": "1º Ano",
+          "students": [
+            { "id": 1, "name": "Ana Silva", "registration": "2023001" },
+            { "id": 2, "name": "Carlos Pereira", "registration": "2023002" },
+            { "id": 3, "name": "Mariana Costa", "registration": "2023003" },
+            { "id": 4, "name": "Lucas Souza", "registration": "2023004" },
+            { "id": 5, "name": "Fernanda Lima", "registration": "2023005" },
+            { "id": 6, "name": "João Santos", "registration": "2023006" },
+            { "id": 7, "name": "Paula Souza", "registration": "2023007" },
+            { "id": 8, "name": "Marcos Nunes", "registration": "2023008" },
+            { "id": 9, "name": "Renata Gomes", "registration": "2023009" },
+            { "id": 10, "name": "Gabriel Silva", "registration": "2023010" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Turma 2A",
+          "series": "2º Ano",
+          "students": [
+            { "id": 11, "name": "Thiago Santos", "registration": "2023011" },
+            { "id": 12, "name": "Sofia Nunes", "registration": "2023012" },
+            { "id": 13, "name": "Felipe Martins", "registration": "2023013" },
+            { "id": 14, "name": "Luana Faria", "registration": "2023014" },
+            { "id": 15, "name": "Carlos Mendes", "registration": "2023015" },
+            { "id": 16, "name": "Ana Ribeiro", "registration": "2023016" },
+            { "id": 17, "name": "Lucas Oliveira", "registration": "2023017" },
+            { "id": 18, "name": "Beatriz Silva", "registration": "2023018" },
+            { "id": 19, "name": "Paulo Lima", "registration": "2023019" },
+            { "id": 20, "name": "Camila Santos", "registration": "2023020" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Turma 3A",
+          "series": "3º Ano",
+          "students": [
+            { "id": 21, "name": "Pedro Almeida", "registration": "2023021" },
+            { "id": 22, "name": "Laura Souza", "registration": "2023022" },
+            { "id": 23, "name": "Marcelo Costa", "registration": "2023023" },
+            { "id": 24, "name": "Julia Lima", "registration": "2023024" },
+            { "id": 25, "name": "Fabiana Rocha", "registration": "2023025" },
+            { "id": 26, "name": "André Silva", "registration": "2023026" },
+            { "id": 27, "name": "Rodrigo Nunes", "registration": "2023027" },
+            { "id": 28, "name": "Marina Santos", "registration": "2023028" },
+            { "id": 29, "name": "Paulo Gonçalves", "registration": "2023029" },
+            { "id": 30, "name": "Fernanda Martins", "registration": "2023030" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Turma 4A",
+          "series": "4º Ano",
+          "students": [
+            { "id": 31, "name": "Carla Souza", "registration": "2023031" },
+            { "id": 32, "name": "Gabriel Pereira", "registration": "2023032" },
+            { "id": 33, "name": "Pedro Gonçalves", "registration": "2023033" },
+            { "id": 34, "name": "Marina Oliveira", "registration": "2023034" },
+            { "id": 35, "name": "Lucas Nunes", "registration": "2023035" },
+            { "id": 36, "name": "Paula Lima", "registration": "2023036" },
+            { "id": 37, "name": "Rafael Santos", "registration": "2023037" },
+            { "id": 38, "name": "Amanda Rocha", "registration": "2023038" },
+            { "id": 39, "name": "Daniel Ribeiro", "registration": "2023039" },
+            { "id": 40, "name": "Gabriela Silva", "registration": "2023040" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Turma 5A",
+          "series": "5º Ano",
+          "students": [
+            { "id": 41, "name": "Lucas Santos", "registration": "2023041" },
+            { "id": 42, "name": "Fernanda Nunes", "registration": "2023042" },
+            { "id": 43, "name": "Gabriel Lima", "registration": "2023043" },
+            { "id": 44, "name": "Paula Gonçalves", "registration": "2023044" },
+            { "id": 45, "name": "Juliana Silva", "registration": "2023045" },
+            { "id": 46, "name": "Thiago Costa", "registration": "2023046" },
+            { "id": 47, "name": "Ana Almeida", "registration": "2023047" },
+            { "id": 48, "name": "Carlos Oliveira", "registration": "2023048" },
+            { "id": 49, "name": "Patrícia Santos", "registration": "2023049" },
+            { "id": 50, "name": "Rodrigo Nunes", "registration": "2023050" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Turma 6A",
+          "series": "6º Ano",
+          "students": [
+            { "id": 51, "name": "André Silva", "registration": "2023051" },
+            { "id": 52, "name": "Paulo Lima", "registration": "2023052" },
+            { "id": 53, "name": "Camila Santos", "registration": "2023053" },
+            { "id": 54, "name": "Marcos Costa", "registration": "2023054" },
+            { "id": 55, "name": "Juliana Nunes", "registration": "2023055" },
+            { "id": 56, "name": "Rafael Gonçalves", "registration": "2023056" },
+            { "id": 57, "name": "Fernanda Pereira", "registration": "2023057" },
+            { "id": 58, "name": "Carlos Ribeiro", "registration": "2023058" },
+            { "id": 59, "name": "Ana Souza", "registration": "2023059" },
+            { "id": 60, "name": "Daniel Silva", "registration": "2023060" }
           ]
         }
       ]

@@ -47,7 +47,7 @@ export default function ModalAddSchool({
       {isOpen && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
-          onClick={handleOverlayClick} // Detecta cliques no fundo (overlay)
+          onClick={handleOverlayClick}
         >
           <div className="bg-white w-[80%] max-w-lg p-6 rounded-lg shadow-lg z-50 relative">
             <h2 className="text-xl font-bold mb-4">Adicionar Nova Escola</h2>

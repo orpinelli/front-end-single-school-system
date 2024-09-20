@@ -38,6 +38,7 @@ export function useSchoolContainer() {
             ...school,
             numberOfClasses: school.getNumberOfClasses(),
             numberOfStudents: school.getNumberOfStudents(),
+            addClass: school.addClass,
           };
         });
 
@@ -63,13 +64,38 @@ export function useSchoolContainer() {
       ...school,
       numberOfClasses: 0,
       numberOfStudents: 0,
-      addClass: function (classItem: IClass): void {
-        throw new Error("Function not implemented.");
-      },
+      addClass: school.addClass,
     };
 
     setSchools([...schools, newSchoolWithCounts]);
   };
 
-  return { schools, error, addSchool };
+  const editSchool = (updatedSchool: {
+    id: number;
+    name: string;
+    address: string;
+  }) => {
+    const updatedSchools = schools.map((school) => {
+      if (school.id === updatedSchool.id) {
+        const updatedSchoolObject = new School(
+          updatedSchool.id,
+          updatedSchool.name,
+          updatedSchool.address,
+          school.classes
+        );
+
+        return {
+          ...updatedSchoolObject,
+          numberOfClasses: updatedSchoolObject.getNumberOfClasses(),
+          numberOfStudents: updatedSchoolObject.getNumberOfStudents(),
+          addClass: updatedSchoolObject.addClass,
+        };
+      }
+      return school;
+    });
+
+    setSchools(updatedSchools);
+  };
+
+  return { schools, error, addSchool, editSchool };
 }
