@@ -1,26 +1,29 @@
-import { IStudent } from "@/interfaces/IStudent";
+import { Entity } from "./Entity";
+import { Student } from "./Student";
 
-export class Class {
-  constructor(
-    public id: number,
-    public name: string,
-    public series: string,
-    public students: IStudent[] = []
-  ) {}
+export class Class extends Entity {
+  private series: string; 
+  private students: Student[]; 
 
-  getStudents(): IStudent[] {
+  constructor(id: number, name: string, series: string, students: Student[] = []) {
+    super(id, name);
+    this.series = series;
+    this.students = students;
+  }
+
+  getSeries(): string {
+    return this.series;
+  }
+
+  getStudents(): Student[] {
     return this.students;
   }
 
-  getDescription(): string {
-    return `${this.name} - ${this.series}`;
-  }
-
-  addStudent(student: IStudent): void {
+  addStudent(student: Student): void {
     this.students.push(student);
   }
 
-  getNumberOfStudents(): number {
-    return this.students.length;
+  getDescription(): string {
+    return `Classe ${this.getName()} - Série ${this.series}`;
   }
 }

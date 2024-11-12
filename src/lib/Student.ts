@@ -1,4 +1,4 @@
-import { Entity } from "./IEntity";
+import { Entity } from "./Entity";
 
 export class Student extends Entity {
   constructor(id: number, name: string, public registration: string) {
@@ -6,6 +6,6 @@ export class Student extends Entity {
   }
 
   getDescription(): string {
-    return `Aluno ${this.name}, matrícula ${this.registration}`;
+    return `Aluno ${this.getName()}, matrícula ${this.registration}`;
   }
 }

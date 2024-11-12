@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { IClass } from "@/interfaces/IClass";
 import { Class } from "@/lib/Class";
+import { Student } from "@/lib/Student";
+import { ApiSchoolData, ApiClassData, ApiStudentData } from "@/types/ApiTypes";
 
 export function useClassContainer(schoolId: number) {
   const [classes, setClasses] = useState<Class[]>([]);
@@ -17,21 +18,22 @@ export function useClassContainer(schoolId: number) {
         if (!response.ok) {
           throw new Error("Erro ao carregar turmas");
         }
-        const data = await response.json();
+        
+        const data: { schools: ApiSchoolData[] } = await response.json();
+        
         const schoolData = data.schools.find(
-          (school: { id: number }) => school.id === schoolId
+          (school) => school.id === schoolId
         );
 
         if (schoolData) {
-          const loadedClasses: Class[] = schoolData.classes.map(
-            (classData: IClass) =>
-              new Class(
-                classData.id,
-                classData.name,
-                classData.series,
-                classData.students
-              )
-          );
+          const loadedClasses: Class[] = schoolData.classes.map((classData: ApiClassData) => {
+            const students = classData.students.map(
+              (studentData: ApiStudentData) =>
+                new Student(studentData.id, studentData.name, studentData.registration)
+            );
+            return new Class(classData.id, classData.name, classData.series, students);
+          });
+
           setClasses(loadedClasses);
         }
       } catch (err) {

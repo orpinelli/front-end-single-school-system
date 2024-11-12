@@ -39,12 +39,12 @@ export default function SchoolListContainer() {
       </div>
       <SchoolList schools={schools} onEditSchool={handleEditSchool} />
       {selectedSchoolId && (
-        <ModalEditSchool
-          school={schools.find((school) => school.id === selectedSchoolId)!}
-          onSave={editSchool}
-          onClose={() => setSelectedSchoolId(null)}
-        />
-      )}
+      <ModalEditSchool
+        school={schools.find((school) => school.getId() === selectedSchoolId)!} 
+        onSave={editSchool}
+        onClose={() => setSelectedSchoolId(null)}
+      />
+    )}
     </div>
   );
 }

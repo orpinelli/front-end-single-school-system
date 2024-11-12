@@ -1,6 +1,7 @@
 import { renderHook, act, waitFor } from "@testing-library/react";
 import { useClassContainer } from "./ClassContainer.hook";
 import { Class } from "@/lib/Class";
+import { Student } from "@/lib/Student";
 
 global.fetch = jest.fn(() =>
   Promise.resolve({
@@ -16,7 +17,9 @@ global.fetch = jest.fn(() =>
                 id: 1,
                 name: "Turma 1A",
                 series: "1º Ano",
-                students: [],
+                students: [
+                  { id: 1, name: "Aluno 1", registration: "123456" },
+                ],
               },
             ],
           },
@@ -50,9 +53,14 @@ describe("useClassContainer hook", () => {
 
     const classItem = result.current.classes[0];
     expect(classItem).toBeInstanceOf(Class);
-    expect(classItem.name).toBe("Turma 1A");
-    expect(classItem.series).toBe("1º Ano");
-    expect(classItem.students).toEqual([]);
+    expect(classItem.getName()).toBe("Turma 1A"); 
+    expect(classItem.getSeries()).toBe("1º Ano"); 
+    expect(classItem.getStudents()).toHaveLength(1);
+
+    const student = classItem.getStudents()[0];
+    expect(student).toBeInstanceOf(Student);
+    expect(student.getName()).toBe("Aluno 1");
+    expect(student.registration).toBe("123456");
   });
 
   it("deve adicionar uma nova turma corretamente", async () => {
@@ -75,9 +83,9 @@ describe("useClassContainer hook", () => {
 
     const newClass = result.current.classes[1];
     expect(newClass).toBeInstanceOf(Class);
-    expect(newClass.name).toBe("Turma 2A");
-    expect(newClass.series).toBe("2º Ano");
-    expect(newClass.students).toEqual([]);
+    expect(newClass.getName()).toBe("Turma 2A"); 
+    expect(newClass.getSeries()).toBe("2º Ano"); 
+    expect(newClass.getStudents()).toEqual([]);
   });
 
   it("deve retornar erro ao carregar turmas", async () => {

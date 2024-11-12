@@ -2,15 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { School } from "@/lib/School";
-import { SchoolWithCounts, ISchool } from "@/interfaces/ISchool";
 import { Class } from "@/lib/Class";
+import { Student } from "@/lib/Student"; 
+import { ApiSchoolData } from "@/types/ApiTypes"; 
 
 const removeAccents = (str: string) => {
   return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 };
 
 export function useSchoolContainer() {
-  const [schools, setSchools] = useState<SchoolWithCounts[]>([]);
+  const [schools, setSchools] = useState<School[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [selectedSchoolId, setSelectedSchoolId] = useState<number | null>(null);
@@ -22,30 +23,21 @@ export function useSchoolContainer() {
         if (!response.ok) {
           throw new Error("Erro ao carregar escolas");
         }
-        const data: { schools: ISchool[] } = await response.json();
+        const data: { schools: ApiSchoolData[] } = await response.json();
 
         const loadedSchools = data.schools.map((schoolData) => {
-          const school = new School(
-            schoolData.id,
-            schoolData.name,
-            schoolData.address,
-            schoolData.classes.map(
-              (classData) =>
-                new Class(
-                  classData.id,
-                  classData.name,
-                  classData.series,
-                  classData.students
+          const classes = schoolData.classes.map(
+            (classData) =>
+              new Class(
+                classData.id,
+                classData.name,
+                classData.series,
+                classData.students.map(
+                  (studentData) => new Student(studentData.id, studentData.name, studentData.registration)
                 )
-            )
+              )
           );
-
-          return {
-            ...school,
-            numberOfClasses: school.getNumberOfClasses(),
-            numberOfStudents: school.getNumberOfStudents(),
-            addClass: school.addClass,
-          };
+          return new School(schoolData.id, schoolData.name, schoolData.address, classes);
         });
 
         setSchools(loadedSchools);
@@ -59,43 +51,21 @@ export function useSchoolContainer() {
   }, []);
 
   const addSchool = (newSchool: { name: string; address: string }) => {
-    const nextId = schools.length ? schools[schools.length - 1].id + 1 : 1;
+    const nextId = schools.length ? schools[schools.length - 1].getId() + 1 : 1;
     const school = new School(nextId, newSchool.name, newSchool.address, []);
 
-    const newSchoolWithCounts: SchoolWithCounts = {
-      ...school,
-      numberOfClasses: 0,
-      numberOfStudents: 0,
-      addClass: school.addClass,
-    };
-
-    setSchools([...schools, newSchoolWithCounts]);
+    setSchools([...schools, school]);
   };
 
-  const editSchool = (updatedSchool: {
-    id: number;
-    name: string;
-    address: string;
-  }) => {
+  const editSchool = (updatedSchool: { id: number; name: string; address: string }) => {
     const updatedSchools = schools.map((school) => {
-      if (school.id === updatedSchool.id) {
-        const updatedSchoolObject = new School(
-          updatedSchool.id,
-          updatedSchool.name,
-          updatedSchool.address,
-          school.classes
-        );
-
-        return {
-          ...updatedSchoolObject,
-          numberOfClasses: updatedSchoolObject.getNumberOfClasses(),
-          numberOfStudents: updatedSchoolObject.getNumberOfStudents(),
-          addClass: updatedSchoolObject.addClass,
-        };
+      if (school.getId() === updatedSchool.id) {
+        school.setName(updatedSchool.name);
+        school.setAddress(updatedSchool.address); 
       }
       return school;
     });
-
+  
     setSchools(updatedSchools);
     setSelectedSchoolId(null);
   };
@@ -106,9 +76,7 @@ export function useSchoolContainer() {
 
   const filteredSchools = searchTerm
     ? schools.filter((school) =>
-        removeAccents(school.name.toLowerCase()).includes(
-          removeAccents(searchTerm.toLowerCase())
-        )
+        removeAccents(school.getName().toLowerCase()).includes(removeAccents(searchTerm.toLowerCase()))
       )
     : schools;
 

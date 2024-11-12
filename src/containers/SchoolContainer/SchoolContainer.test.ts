@@ -1,5 +1,7 @@
 import { renderHook, act, waitFor } from "@testing-library/react";
 import { useSchoolContainer } from "./SchoolListContainer.hook";
+import { School } from "@/lib/School";
+import { Class } from "@/lib/Class";
 
 global.fetch = jest.fn(() =>
   Promise.resolve({
@@ -51,13 +53,15 @@ describe("useSchoolContainer hook", () => {
     });
 
     const school = result.current.schools[0];
+    expect(school).toBeInstanceOf(School);
+    expect(school.getName()).toBe("Escola Municipal José de Anchieta");
+    expect(school.getNumberOfClasses()).toBe(1);
+    expect(school.getNumberOfStudents()).toBe(2);
 
-    expect(school.name).toBe("Escola Municipal José de Anchieta");
-    expect(school.numberOfClasses).toBe(1);
-    expect(school.numberOfStudents).toBe(2);
-    const schoolClass = school.classes[0];
-    expect(schoolClass.name).toBe("Turma 1A");
-    expect(schoolClass.students).toHaveLength(2);
+    const schoolClass = school.getClasses()[0];
+    expect(schoolClass).toBeInstanceOf(Class);
+    expect(schoolClass.getName()).toBe("Turma 1A");
+    expect(schoolClass.getStudents()).toHaveLength(2);
   });
 
   it("deve adicionar uma nova escola e manter a lógica de orientação a objetos", async () => {
@@ -72,14 +76,16 @@ describe("useSchoolContainer hook", () => {
         address: "Endereço Nova",
       });
     });
+
     await waitFor(() => {
       expect(result.current.schools).toHaveLength(2);
     });
 
     const newSchool = result.current.schools[1];
-    expect(newSchool.name).toBe("Nova Escola");
-    expect(newSchool.numberOfClasses).toBe(0);
-    expect(newSchool.numberOfStudents).toBe(0);
+    expect(newSchool).toBeInstanceOf(School);
+    expect(newSchool.getName()).toBe("Nova Escola");
+    expect(newSchool.getNumberOfClasses()).toBe(0);
+    expect(newSchool.getNumberOfStudents()).toBe(0);
   });
 
   it("deve editar uma escola existente corretamente", async () => {
@@ -99,8 +105,8 @@ describe("useSchoolContainer hook", () => {
 
     await waitFor(() => {
       const updatedSchool = result.current.schools[0];
-      expect(updatedSchool.name).toBe("Escola Editada");
-      expect(updatedSchool.address).toBe("Novo Endereço");
+      expect(updatedSchool.getName()).toBe("Escola Editada");
+      expect(updatedSchool.getAddress()).toBe("Novo Endereço"); 
     });
   });
 

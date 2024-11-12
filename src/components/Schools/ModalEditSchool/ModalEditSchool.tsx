@@ -1,24 +1,21 @@
-"use client";
-
 import React, { useState } from "react";
+import { School } from "@/lib/School"; 
+
+interface ModalEditSchoolProps {
+  school: School; 
+  onSave: (updatedSchool: { id: number; name: string; address: string }) => void;
+  onClose: () => void;
+}
 
 export default function ModalEditSchool({
   school,
   onSave,
   onClose,
-}: {
-  school: { id: number; name: string; address: string };
-  onSave: (updatedSchool: {
-    id: number;
-    name: string;
-    address: string;
-  }) => void;
-  onClose: () => void;
-}) {
+}: ModalEditSchoolProps) {
   const [updatedSchool, setUpdatedSchool] = useState({
-    id: school.id,
-    name: school.name,
-    address: school.address,
+    id: school.getId(), 
+    name: school.getName(), 
+    address: school.getAddress(), 
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
