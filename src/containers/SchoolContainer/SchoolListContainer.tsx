@@ -1,7 +1,7 @@
 "use client";
 
+import { useSchoolContainer } from "./SchoolListContainer.hook"; 
 import SchoolList from "@/components/Schools/Schools";
-import { useSchoolContainer } from "./SchoolListContainer.hook";
 import ModalAddSchool from "@/components/Schools/ModalAddSchool/ModalAddSchool";
 import ModalEditSchool from "@/components/Schools/ModalEditSchool/ModalEditSchool";
 
@@ -15,7 +15,7 @@ export default function SchoolListContainer() {
     setSearchTerm,
     selectedSchoolId,
     setSelectedSchoolId,
-  } = useSchoolContainer();
+  } = useSchoolContainer(); 
 
   if (error) {
     return <div>{error}</div>;
@@ -39,12 +39,12 @@ export default function SchoolListContainer() {
       </div>
       <SchoolList schools={schools} onEditSchool={handleEditSchool} />
       {selectedSchoolId && (
-      <ModalEditSchool
-        school={schools.find((school) => school.getId() === selectedSchoolId)!} 
-        onSave={editSchool}
-        onClose={() => setSelectedSchoolId(null)}
-      />
-    )}
+        <ModalEditSchool
+          school={schools.find((school) => school.getId() === selectedSchoolId)!}
+          onSave={editSchool}
+          onClose={() => setSelectedSchoolId(null)}
+        />
+      )}
     </div>
   );
 }

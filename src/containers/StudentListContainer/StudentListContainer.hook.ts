@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Student } from "@/lib/Student";
-import { ISchool } from "@/interfaces/ISchool";
-import { IClass } from "@/interfaces/IClass";
+import { SchoolService } from "@/services/SchoolService"; 
+import { Student } from "@/lib/Student";  
 
 export function useStudentContainer(classId: number) {
   const [students, setStudents] = useState<Student[]>([]);
@@ -14,30 +13,18 @@ export function useStudentContainer(classId: number) {
 
     const fetchStudents = async () => {
       try {
-        const response = await fetch("/mock/db.json");
-        if (!response.ok) {
-          throw new Error("Erro ao carregar alunos");
-        }
-
-        const data: { schools: ISchool[] } = await response.json();
-
-        const classData: IClass | undefined = data.schools
-          .flatMap((school) => school.classes)
-          .find((classItem) => classItem.id === classId);
+        const schools = await SchoolService.fetchSchools(); 
+        const classData = schools
+          .flatMap((school) => school.getClasses())
+          .find((classItem) => classItem.getId() === classId);
 
         if (classData) {
-          const loadedStudents = classData.students.map(
-            (studentData) =>
-              new Student(
-                studentData.id,
-                studentData.name,
-                studentData.registration
-              )
-          );
-          setStudents(loadedStudents);
+          setStudents(classData.getStudents()); 
+        } else {
+          setError("Turma não encontrada.");
         }
       } catch (err) {
-        setError("Erro ao carregar alunos");
+        setError("Erro ao carregar alunos.");
         console.error(err);
       }
     };

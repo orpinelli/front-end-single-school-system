@@ -1,8 +1,6 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { School } from "@/lib/School";
-import { Class } from "@/lib/Class";
+import { useState, useEffect } from "react";
+import { School } from "@/lib/School"; 
+import { Class } from "@/lib/Class"; 
 import { Student } from "@/lib/Student"; 
 import { ApiSchoolData } from "@/types/ApiTypes"; 
 
@@ -33,7 +31,8 @@ export function useSchoolContainer() {
                 classData.name,
                 classData.series,
                 classData.students.map(
-                  (studentData) => new Student(studentData.id, studentData.name, studentData.registration)
+                  (studentData) =>
+                    new Student(studentData.id, studentData.name, studentData.registration)
                 )
               )
           );
@@ -67,11 +66,11 @@ export function useSchoolContainer() {
     });
   
     setSchools(updatedSchools);
-    setSelectedSchoolId(null);
+    setSelectedSchoolId(null); 
   };
 
   const handleEditSchool = (id: number) => {
-    setSelectedSchoolId(id);
+    setSelectedSchoolId(id); 
   };
 
   const filteredSchools = searchTerm

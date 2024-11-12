@@ -1,18 +1,25 @@
-import { Entity } from "./Entity";
-import { Student } from "./Student";
 
-export class Class extends Entity {
-  private series: string; 
-  private students: Student[]; 
+import { Student } from "@/lib/Student"; 
 
-  constructor(id: number, name: string, series: string, students: Student[] = []) {
-    super(id, name);
+export class Class {
+  private id: number;
+  private name: string;
+  private series: string;
+  private students: Student[];
+
+  constructor(id: number, name: string, series: string, students: Student[]) {
+    this.id = id;
+    this.name = name;
     this.series = series;
     this.students = students;
   }
 
-  getSeries(): string {
-    return this.series;
+  getId(): number {
+    return this.id;
+  }
+
+  getName(): string {
+    return this.name;
   }
 
   getStudents(): Student[] {
@@ -23,7 +30,7 @@ export class Class extends Entity {
     this.students.push(student);
   }
 
-  getDescription(): string {
-    return `Classe ${this.getName()} - Série ${this.series}`;
+  getNumberOfStudents(): number {
+    return this.students.length;
   }
 }

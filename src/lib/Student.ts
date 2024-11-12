@@ -1,11 +1,31 @@
-import { Entity } from "./Entity";
+export class Student {
+  private id: number;
+  private name: string;
+  private registration: string;
 
-export class Student extends Entity {
-  constructor(id: number, name: string, public registration: string) {
-    super(id, name);
+  constructor(id: number, name: string, registration: string) {
+    this.id = id;
+    this.name = name;
+    this.registration = registration;
   }
 
-  getDescription(): string {
-    return `Aluno ${this.getName()}, matrícula ${this.registration}`;
+  getId(): number {
+    return this.id;
+  }
+
+  getName(): string {
+    return this.name;
+  }
+
+  getRegistration(): string {
+    return this.registration;
+  }
+
+  setName(newName: string): void {
+    this.name = newName;
+  }
+
+  setRegistration(newRegistration: string): void {
+    this.registration = newRegistration;
   }
 }

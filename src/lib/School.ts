@@ -1,5 +1,6 @@
+
 import { Class } from "./Class";
-import { Entity } from "./Entity";
+import { Entity } from "./Entity"; 
 import { Student } from "./Student";
 
 export class School extends Entity {
@@ -41,6 +42,9 @@ export class School extends Entity {
     return this.classes.reduce((total, cls) => total + cls.getStudents().length, 0);
   }
 
+  addClass(newClass: Class): void {
+    this.classes.push(newClass);
+  }
 
   getClasses(): Class[] {
     return this.classes;

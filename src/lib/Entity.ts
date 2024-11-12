@@ -1,5 +1,11 @@
-export abstract class Entity {
-  constructor(protected id: number, private name: string) {}
+export class Entity {
+  protected id: number;
+  protected name: string;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
+  }
 
   getId(): number {
     return this.id;
@@ -9,9 +15,7 @@ export abstract class Entity {
     return this.name;
   }
 
-  setName(name: string): void {
-    this.name = name;
+  setName(newName: string): void {
+    this.name = newName;
   }
-
-  abstract getDescription(): string;
 }

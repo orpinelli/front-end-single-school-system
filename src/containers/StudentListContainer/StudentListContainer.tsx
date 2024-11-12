@@ -15,5 +15,11 @@ export default function StudentListContainer({
     return <div>{error}</div>;
   }
 
-  return <StudentList students={students} />;
+  const studentsData = students.map(student => ({
+    id: student.getId(), 
+    name: student.getName(), 
+    registration: student.getRegistration(),
+  }));
+
+  return <StudentList students={studentsData} />;
 }
